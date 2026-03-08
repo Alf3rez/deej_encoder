@@ -6,3 +6,10 @@ You'll find my 3D models ready to print, the Arduino code (designed to use with 
 
 The design has in mind repairability, making easy to replace potenciometers, which are commonly wear out rapidly with frequent use.
 
+## Arduino code
+
+Note that you will need the Encoder library in order to properly use the encoder in this design, this one is "Encoder by Paul Stoffregen", right now in version 1.4.4.
+
+## 3D Models
+
+You'll find 4 .stl files ready to be printed, each one gives you the option to build a slide body for any Arduino with the same mounting as Leonardo's one and 5 potenciometers and 1 encoder, also if you prefer a mounted ready side with the holes or just blank for any other purpose.
