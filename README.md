@@ -8,7 +8,9 @@ The design has in mind repairability, making easy to replace potenciometers, whi
 
 ## Arduino code
 
-Note that you will need the Encoder library in order to properly use the encoder in this design, this one is "Encoder by Paul Stoffregen", right now in version 1.4.4.
+The easiest way of implement the encoder is using the Encoder library, the one I used was "Encoder by Paul Stoffregen", right now in version 1.4.4.
+
+But for my needs I prefer to map the imputs directly to key strokes thanks to keyboard capabilities of Leonardo's board and keyboard library, so I defined the three function keys F20, F21 & F22 to avoid conflicts and due to the behaviour of encoders when a low imput is detected it translate in a switch of the encoder, and as it correspond to different pins is easy to map.
 
 ## 3D Models
 
